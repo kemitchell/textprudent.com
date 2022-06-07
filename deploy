@@ -1,0 +1,3 @@
+#!/bin/sh
+site=textprudent.com
+exec scp index.html $site:/var/www/$site/index.html
